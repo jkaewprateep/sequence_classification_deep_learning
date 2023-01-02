@@ -90,8 +90,8 @@ plt.plot( x_scales, series_1, linewidth=2.0, color='red' )
 plt.plot( x_scales, series_2, linewidth=2.0, color='green' )
 plt.plot( x_scales, series_3, linewidth=2.0, color='blue' )
 plt.plot( x_scales, series_4, linewidth=2.0, color='yellow' )
-plt.title("Flappy Birds flying distance")
-plt.xlabel("Series 1 to 4")
+plt.title("Series 1 to 4")
+# plt.xlabel("Series 1 to 4")
 # plt.ylabel("Distance as height")
 plt.legend(['series_1', 'series_2', 'series_3', 'series_4'])
 plt.show()
@@ -159,7 +159,7 @@ custom_callback = custom_callback(patience=8)
 : Optimizer
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 optimizer = tf.keras.optimizers.Nadam(
-    learning_rate=0.0001, beta_1=0.9, beta_2=0.999, epsilon=1e-07,
+    learning_rate=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-07,
     name='Nadam'
 )
 
@@ -201,8 +201,8 @@ plt.plot( x_scales, series_2, linewidth=2.0, color='green' )
 plt.plot( x_scales, series_3, linewidth=2.0, color='blue' )
 plt.plot( x_scales, series_4, linewidth=2.0, color='yellow' )
 plt.plot( x_scales + 1, series_values[tf.math.argmax(score)], linewidth=2.0, color='orange' )
-plt.title("Flappy Birds flying distance")
+plt.title("Series " + str(tf.math.argmax(score)) + " scores: " + str(score[tf.math.argmax(score)]))
 plt.xlabel("Series 1 to 4")
-plt.ylabel("Series " + str(tf.math.argmax(score)) + " scores: " + str(score[tf.math.argmax(score)]))
+# plt.ylabel("Series " + str(tf.math.argmax(score)) + " scores: " + str(score[tf.math.argmax(score)]))
 plt.legend(['series_1', 'series_2', 'series_3', 'series_4', 'prediction'])
 plt.show()
