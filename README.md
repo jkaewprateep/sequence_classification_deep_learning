@@ -43,11 +43,11 @@ series_values = [ series_1, series_2, series_3, series_4 ]
 
 ## Input ##
 
-![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_21.png "input") ![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_23.png "input")
+![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_25.png "input")
 
 ## Results ##
 
-![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_24.png "input")
+![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_26.png "input")
 
 | File name | Description |
 --- | --- |
