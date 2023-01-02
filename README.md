@@ -1,5 +1,5 @@
 # sequence_classification_deep_learning
-For study Sequence Classification Using Deep Learning
+For study Sequence Classification Using Deep Learning, it is simply tasks but the prediction accuracy and precisions is on your works. Create functions from random functions as series and noises as experiment input perform initial validated, random function validated by the number of parameters and its input.
 
 ## Create inputs from randoms series ##
 
@@ -7,26 +7,24 @@ For study Sequence Classification Using Deep Learning
 
 ```
 def function_serie_generator( n_num = 10 ):
-	selecting_number_1 = 0
-	selecting_number_2 = 0
-	selecting_number_3 = 0
+    selecting_number_1 = 0
+    selecting_number_2 = 0
+    selecting_number_3 = 0
 	
+    seed_1 = tf.random.set_seed(int( datetime.now().microsecond ));
+    selecting_number_1 = tf.random.normal([1], 0, 1, dtype=tf.float32, seed=seed_1).numpy()[0]
 	
-	seed_1 = tf.random.set_seed(int( datetime.now().microsecond ));
-	selecting_number_1 = tf.random.normal([1], 0, 1, dtype=tf.float32, seed=seed_1).numpy()[0]
+    seed_1 = tf.random.set_seed(int( datetime.now().microsecond ));
+    selecting_number_2 = tf.random.normal([1], 0, 1, dtype=tf.float32, seed=seed_1).numpy()[0]
 	
-	seed_1 = tf.random.set_seed(int( datetime.now().microsecond ));
-	selecting_number_2 = tf.random.normal([1], 0, 1, dtype=tf.float32, seed=seed_1).numpy()[0]
+    seed_1 = tf.random.set_seed(int( datetime.now().microsecond ));
+    selecting_number_3 = tf.random.normal([1], 0, 1, dtype=tf.float32, seed=seed_1).numpy()[0]
 	
-	seed_1 = tf.random.set_seed(int( datetime.now().microsecond ));
-	selecting_number_3 = tf.random.normal([1], 0, 1, dtype=tf.float32, seed=seed_1).numpy()[0]
-	
-	series_1 = []
-	
-	for i in range( n_num ):
-		series_1.append( i * selecting_number_1 * selecting_number_2 + selecting_number_3 )
-	
-	series_1 = tf.keras.layers.Softmax()(series_1)
+    series_1 = []
+    
+    for i in range( n_num ):
+        series_1.append( i * selecting_number_1 * selecting_number_2 + selecting_number_3 )
+        series_1 = tf.keras.layers.Softmax()(series_1)
 	
 	return series_1.numpy()
 ```
