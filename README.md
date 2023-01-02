@@ -3,6 +3,11 @@ For study Sequence Classification Using Deep Learning, it is simply tasks but th
 
 ## Create inputs from randoms series ##
 
+Our objectives are
+1. Determined the series input prediction as training label series correct with the same performance selection by visual graph ( optimizer learning rates = 0.001 ).
+2. Create a customized location for custom LSTM input, initial values are created one you start copying declared the layer.
+3. It had an integration location where the LSTM layer can train and copy the weights and biases values.
+
 #### Series generator ####
 
 ```
