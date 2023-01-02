@@ -46,15 +46,22 @@ series_values = [ series_1, series_2, series_3, series_4 ]
 
 ## Input ##
 
-![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_25.png "input")
+![Input](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_25.png "Input")
 
 ## Results ##
 
-![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_26.png "input")
+![Results](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_26.png "Results")
+
+#### Sample application ####
+
+1. Image graphs with information
+
+![Sample application](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_15.png "Sample application")
 
 | File name | Description |
 --- | --- |
 | sample.py | sample codes |
+| Figure_15.png | Sample application |
 | Figure_25.png | input series 1 to 4 |
 | Figure_26.png | input series 1 to 4 and prediction result |
 | README.md | readme file |
