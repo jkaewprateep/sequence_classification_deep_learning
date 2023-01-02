@@ -52,10 +52,8 @@ series_values = [ series_1, series_2, series_3, series_4 ]
 | File name | Description |
 --- | --- |
 | sample.py | sample codes |
-| Figure_21.png | input series 1 to 4 |
-| Figure_22.png | input series 1 to 4 and prediction result |
-| Figure_23.png | input series 1 to 4 |
-| Figure_24.png | input series 1 to 4 and prediction result |
+| Figure_25.png | input series 1 to 4 |
+| Figure_26.png | input series 1 to 4 and prediction result |
 | README.md | readme file |
 
 ## Reference ##
