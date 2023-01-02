@@ -58,6 +58,10 @@ series_values = [ series_1, series_2, series_3, series_4 ]
 
 ![Sample application](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_15.png "Sample application")
 
+2. Map
+
+![Map](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/MapTrace110203.jpeg "Map")
+
 | File name | Description |
 --- | --- |
 | sample.py | sample codes |
