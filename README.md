@@ -7,7 +7,7 @@ For study Sequence Classification Using Deep Learning
 
 ## Results ##
 
-![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_21.png "result")
+![Alt text](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_22.png "result")
 
 | File name | Description |
 --- | --- |
