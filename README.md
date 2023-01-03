@@ -62,6 +62,10 @@ series_values = [ series_1, series_2, series_3, series_4 ]
 
 ![Map](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/MapTrace110203.jpeg "Map")
 
+3 Series current mapping
+
+![Series current mapping](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_1.png "Series current mapping")  ![Series current mapping](https://github.com/jkaewprateep/sequence_classification_deep_learning/blob/main/Figure_2.png "Series current mapping") 
+
 | File name | Description |
 --- | --- |
 | sample.py | sample codes |
@@ -75,3 +79,4 @@ series_values = [ series_1, series_2, series_3, series_4 ]
 I found this example interesting because there is nowhere without the nature of the something background.
 
 1. https://www.mathworks.com/help/deeplearning/ug/classify-sequence-data-using-lstm-networks.html
+2. https://www.kaggle.com/datasets/behrad3d/nasa-cmaps?resource=download ( DATA )
