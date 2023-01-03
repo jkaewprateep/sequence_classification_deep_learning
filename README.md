@@ -36,11 +36,23 @@ def function_serie_generator( n_num = 10 ):
 
 #### Function call and variables ####
 
+1. Randoms series variables input.
+
 ```
 series_1 = function_serie_generator( 15 )
 series_2 = function_serie_generator( 15 )
 series_3 = function_serie_generator( 15 )
 series_4 = function_serie_generator( 15 )
+series_values = [ series_1, series_2, series_3, series_4 ]
+```
+
+2. Turbo Fans current input
+
+```
+series_1 = read_input_textfile( textfile_array[0] )
+series_2 = read_input_textfile( textfile_array[1] )
+series_3 = read_input_textfile( textfile_array[2] )
+series_4 = read_input_textfile( textfile_array[3] )
 series_values = [ series_1, series_2, series_3, series_4 ]
 ```
 
@@ -69,6 +81,9 @@ series_values = [ series_1, series_2, series_3, series_4 ]
 | File name | Description |
 --- | --- |
 | sample.py | sample codes |
+| sample2.py | sample codes |
+| Figure_1.png | input Turbo Fan series 1 to 4 |
+| Figure_2.png | input Turbo Fan series 1 to 4 and prediction result |
 | Figure_15.png | Sample application |
 | Figure_25.png | input series 1 to 4 |
 | Figure_26.png | input series 1 to 4 and prediction result |
